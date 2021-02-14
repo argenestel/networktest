@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-02-14T12:15:14.344Z" agent="5.0 (Windows)" etag="uAx_1geEhmJfMqfBm8_V" version="14.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-14T12:18:53.614Z" agent="5.0 (Windows)" etag="kyh2q0VwWerKqrglP9Zw" version="14.3.1" type="github">
   <diagram id="5E9UThSoqMJA3yYfl3ob" name="Page-1">
     <mxGraphModel dx="1888" dy="1673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="N0ISdphDzk23KEhAGcAI-71" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="520" y="685" width="110" height="110" as="geometry" />
+        </mxCell>
         <mxCell id="N0ISdphDzk23KEhAGcAI-44" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="460" y="160" width="370" height="340" as="geometry" />
         </mxCell>
@@ -151,17 +154,46 @@
             <mxPoint x="390" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N0ISdphDzk23KEhAGcAI-63" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+        <mxCell id="N0ISdphDzk23KEhAGcAI-65" value="&lt;div&gt;Spreading in &lt;br&gt;&lt;/div&gt;&lt;div&gt;Entire campus&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="N0ISdphDzk23KEhAGcAI-60">
+          <mxGeometry x="-0.2364" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N0ISdphDzk23KEhAGcAI-63" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="N0ISdphDzk23KEhAGcAI-70">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="560" y="560" as="sourcePoint" />
             <mxPoint x="390" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="575" y="560" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="N0ISdphDzk23KEhAGcAI-64" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+        <mxCell id="N0ISdphDzk23KEhAGcAI-64" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="N0ISdphDzk23KEhAGcAI-68">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="220" y="560" as="sourcePoint" />
             <mxPoint x="390" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="560" />
+            </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="N0ISdphDzk23KEhAGcAI-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N0ISdphDzk23KEhAGcAI-68" target="N0ISdphDzk23KEhAGcAI-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N0ISdphDzk23KEhAGcAI-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="N0ISdphDzk23KEhAGcAI-68" target="N0ISdphDzk23KEhAGcAI-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N0ISdphDzk23KEhAGcAI-68" value="" style="image;html=1;image=img/lib/clip_art/networking/Wireless_Router_128x128.png;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="160" y="600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N0ISdphDzk23KEhAGcAI-69" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.laptop;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="765" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N0ISdphDzk23KEhAGcAI-70" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.laptop;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="725" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N0ISdphDzk23KEhAGcAI-73" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.mobile;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="745" width="35" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
